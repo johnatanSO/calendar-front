@@ -1,22 +1,40 @@
 {
-  "name": "calendar",
+  "name": "calendar-front",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "start": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
+    "prod": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@hookform/resolvers": "^5.0.1",
+    "@mui/material": "^7.0.1",
+    "@mui/x-charts": "^7.28.0",
+    "axios": "^1.8.4",
+    "dayjs": "^1.11.13",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.2.4",
+    "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "sass": "^1.86.3",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^20",
     "@types/react": "^19",
-    "@types/react-dom": "^19"
+    "@types/react-dom": "^19",
+    "typescript": "^5"
   }
 }
