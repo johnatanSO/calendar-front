@@ -9,7 +9,7 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: 'Calendary',
+  title: 'Calendário',
   description: 'Calendar aplication',
 }
 

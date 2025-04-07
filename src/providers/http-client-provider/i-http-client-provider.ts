@@ -1,4 +1,5 @@
-import { HttpStatusCode } from '@/models/enums/HttpStatusCode'
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { HttpStatusCode } from '@/models/enums/http-status-code'
 
 export interface HttpResponse {
   statusCode: HttpStatusCode
