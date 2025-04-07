@@ -7,7 +7,7 @@ import {
 } from '@mui/material'
 import style from './list-mobile.module.scss'
 import { useState } from 'react'
-import { EmptyItems } from '../EmptyItems'
+import { EmptyItems } from '../empty-items'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import { CollapseItem } from './interfaces/CollapseItem'
